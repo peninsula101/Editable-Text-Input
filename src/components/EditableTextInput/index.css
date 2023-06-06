@@ -1,0 +1,58 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #f5d0fe, #d946ef);
+  font-family: Roboto;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  color: #323f4b;
+}
+.userInput,
+.savedInput {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputLabel {
+  height: 35px;
+  width: 200px;
+  outline: none;
+  font-size: 18px;
+  color: #323f4b;
+}
+
+.saveText {
+  font-weight: 500;
+  color: #323f4b;
+  font-size: 25px;
+}
+
+.editBtn {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #d946ef;
+  color: #fff;
+  font-size: 15px;
+  font-family: Roboto;
+  border-style: none;
+  font-weight: 500;
+}
